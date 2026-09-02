@@ -1,0 +1,14 @@
+# Recunoastere de obiecte - dependinte
+#
+# RECOMANDAT (instalare rapida, fara pachete CUDA inutile daca nu ai placa
+# video NVIDIA - marea majoritate a laptopurilor de facultate):
+#
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+#   pip install -r requirements.txt
+#
+# Daca ai placa video NVIDIA si vrei sa fie mai rapid, poti sari peste
+# linia de mai sus si lasa pip sa instaleze automat torch cu suport CUDA.
+
+ultralytics>=8.3.0
+opencv-python>=4.9.0
+numpy>=1.26.0
