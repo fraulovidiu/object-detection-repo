@@ -12,8 +12,8 @@ sau webcam live. Include și un script bonus cu detecție clasică
 ## Instalare
 
 ```bash
-git clone <URL_REPO>
-cd object_detection
+git clone https://github.com/fraulovidiu/object-detection-repo.git
+cd object-detection-repo
 
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
 pip install -r requirements.txt
